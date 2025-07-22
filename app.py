@@ -15,10 +15,10 @@ model = joblib.load("best_model.pkl")
 df = pd.read_csv("/content/adult 3 (1).csv")  # Make sure to update with correct file path
 
 # Set page config
-st.set_page_config(page_title="Employee Salary Classification", page_icon="💼", layout="centered")
+st.set_page_config(page_title="SalaryScope:Salary prediction with insights", page_icon="💼", layout="centered")
 
 # Title
-st.title("💼 Employee Salary Classification App")
+st.title("💼SalaryScope:Salary prediction with insights")
 st.markdown("Predict whether an employee earns >50K or ≤50K based on input features.")
 
 # Sidebar inputs
